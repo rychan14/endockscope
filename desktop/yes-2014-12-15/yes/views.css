@@ -1,0 +1,75 @@
+html{
+	background-color: #101F3E;
+	font-family: "Open Sans", sans-serif;
+}
+#pagetitle {
+	float: left;
+	display: inline;
+	margin: 0 0 0 11%;
+	color: #C5DADD;
+	font-size: 50px;
+}
+
+.navbar {
+	list-style-type: none;
+	margin: 0 10.5% 0 0;
+	padding: 1.8em 0 0 0;
+}
+.navbar a {
+	border: 1px solid #C5DADD;
+	float: right;
+	font-size: 1.45em;
+	text-align: center;
+	display: block;
+	width: 10em;
+	color: #C5DADD;
+	text-decoration: none;
+}
+.section-container{
+	clear: both;
+	margin: 0 0 0 10%;
+	font-size: 1.25em;
+	color: #772514;
+}
+#banner {
+	display: block;
+	margin: 0 auto 20px auto;
+	clear: both;
+	width: 79%;
+}
+#homeblocks{
+	margin: 0 0% 0 0%;
+}
+.homeblock_1{
+	/*text-align: justify;*/
+	margin: 0 5px 10px 5px;
+	padding: 0 2% 10px 2%;
+	float: left;
+	display: block;
+	width: 25%;
+	height: 700px;
+	border-radius: 5px;
+	background-color:#E5CFB8;
+}
+.homeblock{
+	/*text-align: justify;*/
+	margin: 0 5px 10px 5px;
+	padding: 0 2% 10px 2%;
+	float: left;
+	display: block;
+	width: 25%;
+	height: 340px;
+	border-radius: 5px;
+	background-color:#E5CFB8;
+}
+.footer{
+	clear: both;
+	color: #C5DADD;
+	margin: 0 0 0 10%;
+	padding: 9.8% 0 0 0;
+}
+.article-container{
+	background-color: #E5CFB8;
+	width: 90%;
+	margin: 0 0 0 0;
+}

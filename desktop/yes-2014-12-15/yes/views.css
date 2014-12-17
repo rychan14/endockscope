@@ -1,75 +1,114 @@
 html{
-	background-color: #101F3E;
+	background: url("img/lab.gif") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	font-family: "Open Sans", sans-serif;
 }
-#pagetitle {
-	float: left;
-	display: inline;
-	margin: 0 0 0 11%;
-	color: #C5DADD;
-	font-size: 50px;
+a {
+	-webkit-transition: color .2s;
+	-moz-transition: color .2s;
+	-o-transition: color .2s;
+	transition: color .2s;
 }
-
-.navbar {
+a:hover{
+	color:#101F3E;
+}
+h1{
+	font-size: 2.3em;
+	font-weight: 10000;
+}
+.body-container{
+	background-color:#101F3E;
+	border: 2px solid #C5DADD;
+	margin: .5% 15% .5% 15%;
+	padding: 0 .5% .5% .5%;
+}
+#logo{
+	margin: 5px 2px 2px 2px;
+	height: 20%;
+	width: 40%;
+	border-radius: 800px/200px;
+	border: 2px solid #C5DADD;
+}
+#navbar {
+	background-color: #d8d8d8;
 	list-style-type: none;
-	margin: 0 10.5% 0 0;
-	padding: 1.8em 0 0 0;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 100%;
+	height: 2em;
 }
-.navbar a {
-	border: 1px solid #C5DADD;
-	float: right;
+#navbar a {
+	margin: 0 .28% 0 .28%;
+	padding: 0 0 0 0;
+	border: 0px solid #C5DADD;
+	
+	float: left;
+	font-weight: bold;
 	font-size: 1.45em;
 	text-align: center;
 	display: block;
-	width: 10em;
-	color: #C5DADD;
+	width: 19.1%;
+	color: #101F3E;
 	text-decoration: none;
+	-webkit-transition: background-color .2s;
+	-moz-transition: background-color .2s;
+    -o-transition: background-color .2s;
+    transition: background-color .2s;
+}
+#navbar a:hover{
+	background-color: #101F3E;
+	color: #d8d8d8;
 }
 .section-container{
 	clear: both;
-	margin: 0 0 0 10%;
+	margin: 0 0 0 0;
 	font-size: 1.25em;
 	color: #772514;
 }
 #banner {
 	display: block;
-	margin: 0 auto 20px auto;
+	margin: 20px auto 20px auto;
 	clear: both;
-	width: 79%;
+	width: 100%;
 }
 #homeblocks{
+	font-size: .9em;
 	margin: 0 0% 0 0%;
 }
 .homeblock_1{
 	/*text-align: justify;*/
-	margin: 0 5px 10px 5px;
+	margin: 0 .25% 0 .25%;
 	padding: 0 2% 10px 2%;
 	float: left;
 	display: block;
-	width: 25%;
-	height: 700px;
-	border-radius: 5px;
-	background-color:#E5CFB8;
+	width: 29.5%;
+	height: 650px;
+	border-radius: none;
+	background-color:#d8d8d8;
 }
 .homeblock{
 	/*text-align: justify;*/
-	margin: 0 5px 10px 5px;
+	margin: 0 .25% .5% .25%;
 	padding: 0 2% 10px 2%;
 	float: left;
 	display: block;
-	width: 25%;
-	height: 340px;
-	border-radius: 5px;
-	background-color:#E5CFB8;
+	width: 28.5%;
+	height: 317px;
+	border-radius: none;
+	background-color:#d8d8d8;
 }
 .footer{
 	clear: both;
 	color: #C5DADD;
-	margin: 0 0 0 10%;
+	margin: 0 0 0 0;
 	padding: 9.8% 0 0 0;
 }
 .article-container{
-	background-color: #E5CFB8;
-	width: 90%;
+	background-color: #d8d8d8;
+	width: 100%;
 	margin: 0 0 0 0;
+	
 }
